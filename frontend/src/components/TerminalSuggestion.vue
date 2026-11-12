@@ -239,7 +239,8 @@ function onRemove(id: string) {
   position: fixed;
   z-index: 100;
   min-width: 12.5rem;
-  max-width: 25rem;
+  width: max-content;
+  max-width: min(50rem, 80vw);
   max-height: 12.5rem;
   overflow: hidden;
   display: flex;
